@@ -27,11 +27,12 @@ td{
 
 footer {
     position: absolute; 
-    bottom: 0;
+    bottom: 5px;
+    width:100%;
     z-index:100;
     height:2em;
     text-align:right;
-    padding:10px;
+    padding:0 15px 0 15px;
 }
 
 div.Texte{

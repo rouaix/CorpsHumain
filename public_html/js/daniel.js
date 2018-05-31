@@ -24,9 +24,9 @@
                     var Texte = 'La cheville' + ' :<br /><hr />' +'La cheville ou cou-de-pied est l\'articulation qui relie la jambe et le pied. Elle est parfois sujette à des entorses, le plus souvent externes par flexion plantaire et pied en équin. Une cheville adulte est composée, au point de vue osseux, de l\'épiphyse inférieure du tibia (malléole interne et plafond), de l\'épiphyse inférieure de la fibula (ou péroné) (malléole externe) et du talus (ou astragale). Classiquement, on parle d\'articulation supinale de l\'arrière pied. On peut la définir comme une articulation synoviale de type ginglyme (anciennement trochléenne) c\'est-à-dire mettant en rapport un segment de poulie plein à un segment de poulie creux.' + '<hr />Source: Wikipedia'
                 }
                 document.getElementById('Infos').innerHTML = "";
-                document.getElementById('Infos').style.display = "hidden";
                 document.getElementById('Infos').style.height = "0%";
-                
+                document.getElementById('Infos').style.display = "hidden";
+              
                 document.getElementById('Informations').style.height = "100%";
                 document.getElementById('Informations').style.display = "block";
                 document.getElementById('Informations').innerHTML = Texte;
@@ -34,8 +34,8 @@
             
             function masquer(){
                 document.getElementById('Informations').innerHTML = "";
-                document.getElementById('Informations').style.display = "hidden";
                 document.getElementById('Informations').style.height = "0%";
+                document.getElementById('Informations').style.display = "hidden";
             }
             
             function maintenir(nom){
@@ -61,8 +61,9 @@
                     var Texte = 'La cheville' + ' :<br /><hr />' +'La cheville ou cou-de-pied est l\'articulation qui relie la jambe et le pied. Elle est parfois sujette à des entorses, le plus souvent externes par flexion plantaire et pied en équin. Une cheville adulte est composée, au point de vue osseux, de l\'épiphyse inférieure du tibia (malléole interne et plafond), de l\'épiphyse inférieure de la fibula (ou péroné) (malléole externe) et du talus (ou astragale). Classiquement, on parle d\'articulation supinale de l\'arrière pied. On peut la définir comme une articulation synoviale de type ginglyme (anciennement trochléenne) c\'est-à-dire mettant en rapport un segment de poulie plein à un segment de poulie creux.' + '<hr />Source: Wikipedia'
                 }                
                 document.getElementById('Informations').innerHTML = "";
-                document.getElementById('Informations').style.display = "hidden";
                 document.getElementById('Informations').style.height = "0%";
+                document.getElementById('Informations').style.display = "hidden";
+                
                 
                 document.getElementById('Infos').style.height = "100%";
                 document.getElementById('Infos').style.display = "block" ;
