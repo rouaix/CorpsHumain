@@ -1,0 +1,64 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Hopital Grosbobo de Dijon</title>
+        
+        <meta name="description" content="Page sur le corps humain pour Simplon, médecin urgentiste.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Daniel ROUAIX">
+        
+        <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+        
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>       
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">   
+                    <P class="text-left"><span property="name">Hopital Grosbobo</span> de Dijon</P>
+                    <h1 class="text-center">Le Corps Humain</h1>
+                    <hr />
+                </div>
+            </div> 
+            <div class="row">
+                <table>
+                    <tr>
+                        <td id="Gauche">
+                            <div class="Image"><img src="./img/Homme2.jpg" alt="Image" width="244" height="594" border="0" usemap="#Map" />
+                              <div id="Genou" class="Zone" onmouseout="masquer();" onmouseover="afficher('Genou');" onclick="maintenir('Genou');"></div>
+                              <div id="Hanche" class="Zone" onmouseout="masquer();" onmouseover="afficher('Hanche');" onclick="maintenir('Hanche');"></div>
+                              <div id="Poignet" class="Zone" onmouseout="masquer();" onmouseover="afficher('Poignet');" onclick="maintenir('Poignet');"></div>
+                              <div id="Coude" class="Zone" onmouseout="masquer();" onmouseover="afficher('Coude');" onclick="maintenir('Coude');"></div>
+                              <div id="Epaule" class="Zone" onmouseover="afficher('Epaule');" onmouseout="masquer();" onclick="maintenir('Epaule');"></div>
+                              <div id="Cheville" class="Zone" onmouseout="masquer();" onmouseover="afficher('Cheville');" onclick="maintenir('Cheville');"></div>
+                              <div id="Tete" onmouseout="masquer();" onmouseover="afficher('Tete');" onclick="maintenir('Tete');"></div>  
+                            </div>                        
+                        </td>
+                        <td id="Droite">
+                            <div class="Texte"><p id="Infos"></p></div>
+                            <div class="Texte"><p id="Informations"></p></div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <br />
+            <hr />  
+        </div>
+        <footer>
+          <p class="right">&copy; <span property="name">Daniel ROUAIX</span> 2018</p>
+        </footer>           
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/daniel.js"></script>
+    </body>
+</html>
